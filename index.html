@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Avto Uploader</title>
+  <meta name="description" content="Avto Uploader is a private single-user tool that publishes the owner's own original videos to the owner's own YouTube channel using YouTube API Services.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <a class="brand" href="./">Avto Uploader</a>
+    <nav><a href="./">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+  </header>
+
+  <h1>Avto Uploader</h1>
+  <p>Avto Uploader is a private, single-user desktop tool. Its owner uses it to publish the owner's own original
+    long-form videos (narrated fiction stories in Russian) to the owner's own YouTube channel.</p>
+
+  <div class="card">
+    <strong>This app uses YouTube API Services.</strong>
+    <p>By using Avto Uploader you agree to be bound by the
+      <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Data accessed through YouTube API
+      Services is handled as described in our <a href="privacy.html">Privacy Policy</a> and the
+      <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+  </div>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Uploads a finished video file from the owner's computer to the owner's channel
+      (<code>videos.insert</code>) with its title, description, tags and the
+      "altered or synthetic content" disclosure.</li>
+    <li>Sets the custom thumbnail for that video (<code>thumbnails.set</code>).</li>
+    <li>Adds the video to the owner's playlists (<code>playlistItems.insert</code>).</li>
+    <li>Reads the owner's channel status and public video statistics to plan the next videos
+      (<code>channels.list</code>, <code>videos.list</code>, <code>search.list</code>,
+      YouTube Analytics reports for the owner's channel only).</li>
+  </ul>
+
+  <h2>Who can use it</h2>
+  <p>Only the owner. The app is not offered to the public, has no sign-up, and is not used to access anyone
+    else's account or data. It signs in with Google OAuth 2.0 and runs locally on the owner's computer.</p>
+
+  <h2>Contact</h2>
+  <p>Azamat Muratov — azamurat0 (at) gmail.com</p>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> ·
+    <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> ·
+    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>
